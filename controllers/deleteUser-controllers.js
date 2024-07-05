@@ -3,7 +3,7 @@ import express from "express";
 import userModels from "../models/user-models.js";
 const router = express.Router();
 
-// Delete user routes
+// Delete User Routes
 router.delete("/:id", async (req, res) => {
     const { id } = req.params;
     try {
